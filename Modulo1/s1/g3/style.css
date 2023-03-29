@@ -1,0 +1,60 @@
+
+.immaginelogo{
+text-align: center;
+}
+
+
+#scritta{
+    height: 40px;
+    border-top: 2px outset #F9CB64;
+    background-color:#F4DEAE;
+    color: #004D4C;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.marginifoglio{
+    width: 800px;
+    margin: 0% auto;
+    }
+
+.titolo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.descrizionefocaccia{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top:18 px;
+}
+
+
+.focacciaimmagine{
+    border-radius: 2px;
+    box-shadow: 2px; color:rgb(76, 76, 76);
+    width: 500px;
+}
+
+.grigio{
+    text-align: center;
+    color: grey;
+}
+
+
+.featuredin{
+    color:#B5460F;
+}
+
+
+
+
+.ingredienti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
