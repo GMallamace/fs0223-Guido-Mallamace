@@ -48,13 +48,6 @@ text-align: center;
     color:#B5460F;
 }
 
-
-
-
-.ingredienti{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
-
+.link {
+color:#107777;
+}
