@@ -1,0 +1,49 @@
+/* IMPOSTAZIONI GENERALI */
+#quadrato {
+width: 450px;
+height: 450px;
+background: linear-gradient(43deg, rgba(13,98,126,1) 29%, rgba(0,153,187,1) 81%);margin-left:auto;
+margin:0 auto;
+margin-top: 20px;
+}
+
+
+/* HEADER */
+#fase1{
+text-align: center;
+margin-top:-350px;
+}
+
+.logo{
+    width: 290px;
+}
+
+.h1{
+color:white;
+padding-top: 50px;
+font-size: 20px;
+}
+
+.button{
+padding-top: 15px;
+font-size: 17px;
+display: block;
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+
+
+/* MAIN */
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
