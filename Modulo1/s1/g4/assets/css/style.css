@@ -5,6 +5,7 @@ height: 450px;
 background: linear-gradient(43deg, rgba(13,98,126,1) 29%, rgba(0,153,187,1) 81%);margin-left:auto;
 margin:0 auto;
 margin-top: 20px;
+font-family: "Poppins", sans-serif;
 }
 
 
@@ -35,6 +36,8 @@ color: rgb(255, 255, 255);
 
 
 /* MAIN */
+.main{
+}
 
 
 
