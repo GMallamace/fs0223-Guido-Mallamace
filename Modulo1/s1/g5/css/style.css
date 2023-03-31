@@ -1,0 +1,104 @@
+
+/* BODY WEBSITE */
+html {font-size: 60%;}
+body { 
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    box-sizing: 20px;
+
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header img {
+    margin: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+#partiamo {
+background-image: url('../images/banner.jpg');
+background-position: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    color: #25a2c3;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+button {
+    padding: 4px 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f04c2f;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+
+#mariorossi {
+background-color: #e22d0e;
+padding: 20px;
+line-height: 20px;
+color: white;
+}
+
+.immaginerotonda{
+border-radius:100%;
+width: 170px;
+}
+
+h2 {
+   text-align: center;
+   color: white;
+   font-size: 20px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+   font-weight: bold;
+}
+
+h3 {
+   text-align: center;
+   color: #25a2c3;
+   font-weight: bold;
+   padding-top: 20px;
+}
+
+.classeparagrafo {
+   margin-top: 15px;
+   text-align: center;
+   margin: 15px;
+}
+
+
+
+aside div {
+   background-color: white;
+   box-shadow: 10px black;
+   text-align: center;
+}  
+
+
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+footer a {
+    color: white;
+}
