@@ -81,13 +81,20 @@ h3 {
    margin: 15px;
 }
 
-
-
 aside div {
-   background-color: white;
-   box-shadow: 10px black;
-   text-align: center;
-}  
+    background-color: white;
+    text-align: center;
+    margin: 16px;
+ }
+
+
+.shadow-container {
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 4px;
+ }
 
 
 
@@ -96,9 +103,15 @@ footer {
     text-align: center;
     color: white;
     padding-bottom: 20px;
+    line-height: 25px;
 
 }
 
 footer a {
     color: white;
+}
+
+footer div {
+padding-top: 15px;
+padding-bottom: 20px;
 }
