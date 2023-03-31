@@ -57,6 +57,7 @@ color: white;
 .immaginerotonda{
 border-radius:100%;
 width: 170px;
+
 }
 
 h2 {
@@ -94,6 +95,10 @@ aside div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 16px;
     border-radius: 4px;
+}
+
+ .immagini {
+max-width: 100%;
  }
 
 
