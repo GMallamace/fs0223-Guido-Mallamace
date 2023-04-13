@@ -3,95 +3,145 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
   
-  
-.logo {
+/*Sezione 1 Logo Amazon*/
+.logo1 {
 background-color: #222f3e;
 }
 
-main {
-    background-color: #ededed;
-    padding: 2rem;
+#logoamazon {
+    width: 8%;
+    padding-top: 15px;
+    padding-left: 30px;
   }
 
+
+
+/*Sezione 2 Bottoni*/
 .button {
     background-color: #364759;
     color: white;
+    padding: 15px;
+    padding-left: 30px;
+}
+ 
+.bottoni {
+    color: white;
+    background-color: #37485C;
+    border-collapse: collapse;
+    padding-right: 15px;
+    text-decoration: none;
 }
 
+
+
+/*Main*/
+main {
+    background-color: #ededed;
+    padding: 40px;
+}
+
+
+/*Sezione 3 Striscia Arancione*/
 .strisciaarancione {
    text-align: center;
    background-color: #f56600;
    color: white;
-   padding: 12px;
+   padding: 20px;
 }
 
 
+/*Sezione 4 Striscia verde*/
 .regalinatale {
     text-align: center;
     color: white;
     background-image: url("assets/bg-image.png");
+    background-repeat: repeat;
+    background-size: 1700px;
     padding: 25px;
+    margin: 25px;
 }
 
+
+/*Sezione 5 Regali pt1*/
 .sezioneregali {
    background-color: white;
    width: 100%;
-   text-align: center;
 }
 
-    
+.titolo1 {
+    font-size: 25px;
+    padding-left: 30px;
+}
 
+.collegamento1 {
+    font-weight: 600;
+    color: #055765;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.quattroimmagini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .immagine {
     width: 304px;
     height: 379px;
     object-fit: cover;
     margin: 1rem;
-    border-radius: 20px;
-    -webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5%;
+    box-shadow: 0px 20px 20px 0px #404040d8 
 }
 
 
 
+/*Sezione 6 Regali pt2*/
 .immagine2 {
     text-align: center;
     margin-top: 2rem;
-  }
+}
     
-
-
-.titolo {
+.titolo2 {
     font-size: 25px;
     text-align: center;
 }
 
 
-.collegamento {
+.collegamento2 {
     font-weight: 600;
-    color: #007185;
-    margin-left: 1rem;
+    color: #055765;
+    margin-left: 10px;
     text-align: center;
-  }
-
-
-.footer {
-    width: 100%;
-    text-align: center;
+    text-decoration: none;
 }
 
+
+/*Sezione 8 Chiusura pag*/
+
 .backtotop {
-   background-color: #364759;
-   padding: 1rem;
-   text-align: center;
-   font-weight: 600;
+    background-color: #364759;
+    text-align: center;
+    padding: 25px;
+}
+
+.backtotop a {
     color: white;
+    font-weight: 800;
+  
 }
 
 
 .footerlogo {
-    width: 100%;
-    text-align: center;
     background-color: #222f3e;
+    text-align: center;
+    padding: 30px;
+    
 }
+
+
+#logoamazon2 {
+    width: 12%;
+}
+
