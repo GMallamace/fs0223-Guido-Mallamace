@@ -93,7 +93,7 @@ console.log(cars);
 */
 
 const justTrims = []
-  for (i = 0;iz < cars.length; i++){
+  for (i = 0; i < cars.length; i++){
   justTrims.push(cars[i].trims[0])
 }
 console.log(justTrims)
