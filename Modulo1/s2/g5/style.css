@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  
+.logo {
+background-color: #222f3e;
+}
+
+main {
+    background-color: #ededed;
+    padding: 2rem;
+  }
+
+.button {
+    background-color: #364759;
+    color: white;
+}
+
+.strisciaarancione {
+   text-align: center;
+   background-color: #f56600;
+   color: white;
+   padding: 12px;
+}
+
+
+.regalinatale {
+    text-align: center;
+    color: white;
+    background-image: url("assets/bg-image.png");
+    padding: 25px;
+}
+
+.sezioneregali {
+   background-color: white;
+   width: 100%;
+   text-align: center;
+}
+
+    
+
+
+.immagine {
+    width: 304px;
+    height: 379px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+
+.immagine2 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+    
+
+
+.titolo {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.collegamento {
+    font-weight: 600;
+    color: #007185;
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.backtotop {
+   background-color: #364759;
+   padding: 1rem;
+   text-align: center;
+   font-weight: 600;
+    color: white;
+}
+
+
+.footerlogo {
+    width: 100%;
+    text-align: center;
+    background-color: #222f3e;
+}
