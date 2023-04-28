@@ -1,51 +1,50 @@
 body {
-    font-family: Roboto, sans-serif;
-  }
+   font-family: Roboto, sans-serif;
+}
  
-  .hero h1 {
-    font-family: Spectral, serif;
-  }
+.hero h1 {
+   font-family: Spectral, serif;
+}
  
-  header {
-    background-color: #ffc017;
-  }
+header {
+   background-color: #ffc017;
+}
  
-  nav {
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(23, 23, 23);
     position: fixed;
     width: 100%;
     background-color: #ffc017;
     z-index: 1;
     transition: all 1s;
-  }
+}
  
  
- 
-  nav ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-  }
+}
  
-  nav ul li a {
+nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(23, 23, 23);
     margin: 10px;
-  }
+}
  
-  .hero {
+.hero {
     padding-top: 70px;
     height: 294px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    border-bottom: 1px solid black;
-  }
+    border-bottom: 1px solid rgb(23, 23, 23);
+}
  
   svg {
     flex-shrink: 1;
@@ -91,7 +90,7 @@ body {
   }
  
   .fixing-stars img{
-      margin:5px;
+      margin: 8px;
   }
  
   #article-1 {
@@ -153,14 +152,11 @@ body {
     align-items: center;
     font-size: 1 em;
   }
- 
-  .writer p {
-    font-size: 1 em;
-  }
+
  
   .authors img {
     margin-right: 5px;
-    height: 30px;
+    height: 20px;
     border-radius: 5px;
   }
  
@@ -172,10 +168,9 @@ body {
     opacity: 0.7;
   }
  
-  .info {
+  .date {
     font-size: 0.8em;
-    font-weight: bold;
-    opacity: 0.4;
+    color: grey;
   }
  
   main {
@@ -227,12 +222,11 @@ body {
  
   .under-articles p {
     font-size: 0.8em;
-    font-weight: bold;
     opacity: 0.4;
   }
  
   .under-articles div {
-      background-color: rgba(0, 0, 0, 0.203);
+      background-color: rgba(0, 0, 0, 0.098);
       margin: 0px 5px;
       padding: 5px 10px;
       border-radius: 50px;
@@ -267,13 +261,13 @@ body {
       display: flex;
       flex-wrap: wrap;
       padding-bottom: 25px;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+      border-bottom: 1px solid rgba(44, 44, 44, 0.094);
       position: sticky;
       top: 140px;
   }
  
   #topics-container div{
-      border: 1px solid  rgba(0, 0, 0, 0.203);
+      border: 1px solid  rgba(31, 31, 31, 0.094);
       padding: 5px;
       margin: 5px;
   }
@@ -293,14 +287,6 @@ body {
  
   aside a{
       text-decoration: none;
-      color: black;
+      color: rgb(56, 56, 56);
   }
  
-  .cambia-nav{
-      background-color: white;
-  }
- 
-  .cambia-nav .black-buttons{
-      color: white;
-      background-color: green;
-  }
