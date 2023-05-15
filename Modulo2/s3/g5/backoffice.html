@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Private Form</title>
+    <!-- Link To CSS -->
+	<link rel="stylesheet" href="backoffice.css">
+</head>
+<body>
+
+<div class="container">
+    <div id="title" class="title">Crea nuovo prodotto
+    </div>
+    <div id="form" class="form">
+       <div class="inputfield">
+          <label>Nome del prodotto</label>
+          <input id="name" type="text" class="input" placeholder="Riempi campo" required>
+       </div>  
+        <div class="inputfield">
+          <label>Descrizione del prodotto</label>
+          <input id="description" type="text" class="input" placeholder="Riempi campo" required>
+       </div>  
+       <div class="inputfield">
+          <label>Brand</label>
+          <input id="brand" type="text" class="input" placeholder="Riempi campo" required>
+       </div>  
+      <div class="inputfield">
+          <label>Immagine del prodotto</label>
+          <input id="img" type="text" class="input" placeholder="Riempi campo" required>
+       </div> 
+       <div class="inputfield">
+          <label>Prezzo</label>
+         <input id="price" type="text" class="input" placeholder="Riempi campo" required>
+        </div> 
+    </div> 
+    <button id="create" class="cssbuttons-io-button">Create
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+      </div>
+      <button id="reset" type="reset" class="cssbuttons-io-button">Reset
+         <div class="icon">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+         </div>
+    </button>
+    <button id="elimina" class="cssbuttons-io-button">Delete
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+      </div>
+    </button>
+              
+</div>	
+<script src="backooffice.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Variables */
+:root {
+  --main-color: #558C8C;
+  --text-color: #39393A;
+  --bg-color: #ecebeb;
+}
+
+body{
+  background:var(--main-color);
+  padding: 0 10px;
+}
+
+/* Form modifica del prodotto */
+.container{
+  max-width: 500px;
+  width: 100%;
+  background:var(--bg-color);
+  margin: 20px auto;
+  box-shadow: 1px 1px 2px rgba(34, 34, 34, 0.125);
+  padding: 30px;
+}
+
+.container .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .form{
+  width: 100%;
+}
+
+.container .form .inputfield{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.container .form .inputfield label{
+   width: 200px;
+   color: #757575;
+   margin-right: 10px;
+  font-size: 14px;
+}
+
+.container .form .inputfield .input,
+.container .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--bg-color);
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.container .form .inputfield .input:focus,
+.container .form .inputfield .textarea:focus,
+.container .form .inputfield .custom_select select:focus{
+  border: 1px solid var(--main-color);
+}
+
+.container .form .inputfield p{
+   font-size: 14px;
+   color: #757575;
+}
+.container .form .inputfield .check{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.container .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+  display: block;
+}
+
+.container .form .inputfield .btn{
+  width: 100%;
+   padding: 8px 10px;
+  font-size: 15px; 
+  border: 0px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.container .form .inputfield .btn:hover{
+  background: var(--main-color);
+}
+
+.container .form .inputfield:last-child{
+  margin-bottom: 0;
+}
+
+/* Button */
+.cssbuttons-io-button {
+  background: var(--main-color);
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  margin-top: 2em;
+  margin-right: 0.9em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.5em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em var(--text-color);;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: var(--bg-color);;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em var(--text-color);;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: var(--text-color);
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* Break Points */
+
+@media (max-width:420px) {
+  .wrapper .form .inputfield{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper .form .inputfield label{
+    margin-bottom: 5px;
+  }
+  .wrapper .form .inputfield.terms{
+    flex-direction: row;
+  }
+}
