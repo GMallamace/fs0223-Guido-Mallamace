@@ -1,0 +1,73 @@
+/* Variables */
+:root {
+  --text-color: #f7f7f7;
+  --text-color2: #303030;
+  --bg-color: #151515;
+  --navbar-color: #252525;
+}
+
+
+/* Body */
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+  
+
+/* Navbar */ 
+nav {
+  background-color: var(--navbar-color);
+}
+nav .navbar-brand img {
+  width: 100px;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li button:focus {
+  border: none;
+}
+
+nav li .profile-img {
+  width: 40px;
+}
+  
+
+/* Profilo dell'utente */ 
+.edit-profile {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 3.5em;
+}
+
+
+main img {
+  width: 100%;
+}
+
+main .custom-txt {
+  color: (var(--text-color2));
+  margin: 0;
+}
+  
+main .alt-txt {
+  color: var(--text-color);
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Bottoni e Container */ 
+main button.custom-bg {
+  background-color: var(--bg-color);
+}
+  
+main button.custom-btn:hover {
+  background-color: var(--text-color);
+}
+  
+main .checkbox-container {
+  background-color: var(--bg-color);
+}
+

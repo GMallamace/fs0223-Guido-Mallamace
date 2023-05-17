@@ -1,0 +1,91 @@
+/* Variables */
+:root {
+  --text-color: #f7f7f7;
+  --text-color2: #303030;
+  --bg-color: #151515;
+  --navbar-color: #252525;
+}
+
+
+/* Navbar */
+nav {
+  background-color:var(--navbar-color);
+}
+
+nav .navbar-brand img {
+  width: 100px;
+}
+
+nav li {
+  cursor: pointer;
+}
+nav li button:focus {
+  border: none;
+}
+nav li .profile-img {
+  width: 40px;
+}
+
+
+
+/* Body */
+body {
+  color: var(--text-color);
+  background-color:var(--bg-color);
+}
+  
+button.custom-btn {
+  background-color: var(--bg-color);
+}
+
+button.custom-btn:hover {
+  background-color: var(--text-color2);
+}
+
+/* Carosellooo */
+.ms-4.mb-0.mb-lg-3 {
+  padding-top: 25px;
+}
+  
+.carousel-inner {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+  
+main #heading .svg-container {
+  padding: 5px 10px;
+  border: 1px solid var(--text-color);
+  cursor: pointer;
+}
+
+main select.form-select {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+main ul.dropdown-menu {
+  background-color:var(--bg-color);
+}
+main ul.dropdown-menu li a {
+  color: var(--text-color);
+}
+  
+
+  
+  footer a {
+    color: #a9a9a9;
+  }
+  footer a:hover {
+    color: var(--text-color);
+  }
+  footer .links-container {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  footer p {
+    font-size: 0.9em;
+    color: #a9a9a9;
+  }
+  footer svg {
+    cursor: pointer;
+  }

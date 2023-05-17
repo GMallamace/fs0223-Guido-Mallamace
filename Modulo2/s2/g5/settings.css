@@ -1,0 +1,28 @@
+/* Variables */
+:root {
+  --text-color: #f7f7f7;
+  --text-color2: #303030;
+  --bg-color: #151515;
+  --navbar-color: #252525;
+}
+
+
+/* Navbar */
+nav {
+  background-color:var(--navbar-color);
+}
+
+nav .navbar-brand img {
+  width: 100px;
+}
+
+nav li {
+  cursor: pointer;
+}
+nav li button:focus {
+  border: none;
+}
+nav li .profile-img {
+  width: 40px;
+}
+
